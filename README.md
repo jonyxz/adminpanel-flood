@@ -1,8 +1,31 @@
-# React + Vite
+# Aplikasi Kebencanaan Banjir
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web admin panel berupa laporan kebencanaan pada banjir yang dibangun menggunakan React.js. Aplikasi ini memungkinkan pengguna untuk melakukan login, pendaftaran, dan mengelola laporan banjir (CRUD). Aplikasi ini juga menggunakan beberapa konsep penting seperti CSS framework (Tailwind), Props, State, Route, Axios, dan Redux.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React.js**: Library utama untuk membangun antarmuka pengguna.
+- **Redux**: Mengelola state global aplikasi.
+- **Axios**: Melakukan permintaan HTTP ke API.
+- **Tailwind CSS**: Framework CSS untuk styling.
+- **React Router**: Mengelola routing di aplikasi.
+- **SweetAlert2**: Menampilkan popup yang responsif.
+- **React Icons**: Menyediakan icon untuk digunakan dalam aplikasi.
+
+## Instalasi
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/jonyxz/adminpanel-flood.git
+   cd adminpanel-flood
+   ```
+   
+2. Install dependensi:
+   ```bash
+   npm i
+   ```
+
+3. jalankan web:
+   ```bash
+   npm run dev
+   ```
