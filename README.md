@@ -1,3 +1,5 @@
+ - Johan Ridho Akbar Auradhana / A11.2022.14472
+
 # Aplikasi Kebencanaan Banjir
 
 Aplikasi web admin panel berupa laporan kebencanaan pada banjir yang dibangun menggunakan React.js. Aplikasi ini memungkinkan pengguna untuk melakukan login, pendaftaran, dan mengelola laporan banjir (CRUD). Aplikasi ini juga menggunakan beberapa konsep penting seperti CSS framework (Tailwind), Props, State, Route, Axios, dan Redux.
